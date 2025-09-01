@@ -78,7 +78,7 @@ python -m behave frontend/features/form.feature
 # Browser Windows
 python -m behave frontend/features/browser_windows.feature
 
-# Web Tables (inclui bônus de 12 registros)
+# Web Tables
 python -m behave frontend/features/web_tables.feature
 
 # Progress Bar
@@ -116,25 +116,6 @@ python -m behave frontend/features/sortable.feature
   <li>Tratamento de anúncios e elementos sobrepostos</li>
   <li>Esperas explícitas com WebDriverWait</li>
   <li>Validações com asserções</li>
-</ul>
-
-<h2 style="text-align:center;">📝 Observações Importantes</h2>
-<ul>
-  <li>O código remove automaticamente iframes de anúncios antes de interagir com elementos</li>
-  <li>Os dados dos formulários são gerados aleatoriamente usando a biblioteca Faker</li>
-  <li>O arquivo <code>sample.txt</code> é utilizado para testes de upload</li>
-  <li>Os testes geram um arquivo JSON (<code>user_details.json</code>) com os resultados da API</li>
-  <li>Para debugging, você pode inserir pausas no código: <pre>input("Pressione Enter para continuar...")</pre></li>
-</ul>
-
-<h2 style="text-align:center;">🔧 Possíveis Melhorias Futuras</h2>
-<ul>
-  <li>Implementação do padrão Page Object Model</li>
-  <li>Geração de relatórios HTML com Allure ou Behave-html-formatter</li>
-  <li>Screenshots automáticas em caso de falha</li>
-  <li>Configuração de CI/CD com GitHub Actions</li>
-  <li>Execução em paralelo para reduzir tempo de teste</li>
-  <li>Configuração multi-navegador (Chrome, Firefox, Edge)</li>
 </ul>
 
 <h2 style="text-align:center;">📞 Suporte</h2>
