@@ -1,4 +1,4 @@
-<p style="text-align:center; font-size:24px; font-weight:bold;">🤖 QA Automation - DemoQA</p>
+<h1 style="text-align:center; font-size:24px; font-weight:bold;">🤖 QA Automation - DemoQA</h1>
 <p style="text-align:center;">Teste automatizado completo do site <strong>DemoQA</strong>, incluindo <strong>API</strong> e cenários frontend, usando <strong>Python, Selenium, Requests e Behave</strong>.</p>
 
 <h2 style="text-align:center;">📋 Visão Geral</h2>
